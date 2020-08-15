@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elemanlar [
+  <!ELEMENT elemanlar (eleman*)>
+  <!ELEMENT kisi (departman, adi, soyadi)>
+  <!ELEMENT departman (#PCDATA)>
+  <!ELEMENT adi (#PCDATA)>
+  <!ELEMENT soyadi (#PCDATA)>
+]>
+<elemanlar>
+  <kisi>
+    <departman>insankaynaklari</departman>
+    <adi>Hande</adi>
+    <soyadi>Kalaycı</soyadi>
+  </kisi>
+  <kisi>
+    <departman>satis</departman>
+    <adi>Kerem</adi>
+    <soyadi>Varol</soyadi>
+  </kisi>
+  <kisi>
+    <departman>pazarlama</departman>
+    <adi>Sinem</adi>
+    <soyadi>Konca</soyadi>
+  </kisi>
+  <kisi>
+    <departman>uretimplanlama</departman>
+    <adi>Aslıhan</adi>
+    <soyadi>Delen</soyadi>
+  </kisi>
+</elemanlar>
